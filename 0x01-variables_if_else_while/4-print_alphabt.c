@@ -19,7 +19,7 @@ int main(void)
 		if (alph == 'e' || alph == 'q')
 		{
 			alph++;
-			n--;
+			n++;
 		}
 		putchar(alph++);
 	}
