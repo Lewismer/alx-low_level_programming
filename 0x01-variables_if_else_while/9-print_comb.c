@@ -4,7 +4,7 @@
  * main - Entry point of this program
  *
  * Description: this function serves to print from 0 to 10
- *		using only putchar twice
+ *		seperated by ',' using only putchar max 4 times
  *
  * Return: 0 on successful execution
 */
@@ -16,9 +16,12 @@ int main(void)
 	while (m++ < 10)
 	{
 		putchar(n++);
-		putchar(',');
-		putchar(' ');
-	}
+
+		if (m < 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 
 	putchar('\n');
 
