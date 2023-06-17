@@ -10,7 +10,7 @@
  * Return : 0 on successful execution
  */
 
-int main (void)
+int main(void)
 {
 	int n = 0;
 	char alph = 'a';
