@@ -15,12 +15,12 @@ int main (void)
 	int n = 0;
 	char alph = 'a';
 
-	while ( n++ < 26)
+	while (n++ < 26)
 	{
 		putchar(alph++);
 	}
 
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
