@@ -4,7 +4,7 @@
  * main - Entry point of this program
  *
  * Description: this function serves to print all combinations possible
- * 		of 2 digits.
+ *		of 2 digits.
  *
  * Return: 0 on successful execution
 */
