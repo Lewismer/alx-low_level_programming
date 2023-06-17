@@ -19,7 +19,7 @@ int main(void)
 	{
 		m = n + 1;
 
-		for (j = i + 1; j < 9 && m <= '9'; j++)
+		for (j = i + 1; j < 9 && m < '9'; j++)
 		{
 			l = m + 1;
 
