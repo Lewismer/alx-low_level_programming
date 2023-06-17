@@ -3,24 +3,27 @@
 /**
  * main - Entry point of this program
  *
- * Description: this function serves to print alphabets in lowercase
- *		except e and q using only putchar twice
+ * Description: this function serves to print numbers of base 16 in lowercase
  *
  * Return: 0 on successful execution
 */
 int main(void)
 {
 	int n = 0;
-	char alph = '0';
+	int num = '0';
+	char alph = 'a';
 
 	while (n++ < 16)
 	{
 
-		if (alph == '10')
+		if (num <= '9')
 		{
-			alph = 'a';
+			putchar(num++);
 		}
-		putchar(alph++);
+		else
+		{
+			putchar(alph++);
+		}
 	}
 
 	putchar('\n');
