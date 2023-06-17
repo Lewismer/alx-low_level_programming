@@ -13,15 +13,15 @@ int main(void)
 	int n;
 	char alph = 'a';
 
-	for (n = 0; n < 26*2; n++)
+	for (n = 0; n < 26 * 2; n++)
 	{
 		putchar(alph++);
 
-		if(n == 25)
+		if (n == 25)
 		{
 			alph = 'A';
 		}
-	}	
+	}
 
 	putchar('\n');
 
