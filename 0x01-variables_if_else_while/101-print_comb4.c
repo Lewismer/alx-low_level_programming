@@ -23,9 +23,9 @@ int main(void)
 		{
 			l = m + 1;
 
-			for ( k = j + 1; k < 10 && l <= '9'; k++)
+			for (k = j + 1; k < 10 && l <= '9'; k++)
 			{
-				
+
 				putchar(n);
 				putchar(m);
 				putchar(l++);
@@ -37,7 +37,7 @@ int main(void)
 				}
 
 			}
-			
+
 			m++;
 		}
 
