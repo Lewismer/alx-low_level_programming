@@ -9,7 +9,15 @@
  */
 int main(void)
 {
-	_putchar("_putchar\0");
+	int i = 0;
+	char message[] = "_putchar";
+
+	while(message[i] !='\0')
+	{
+		_putchar(message[i++]);
+	}
+
+	_putchar('\n');
 
 	return (0);
 }
