@@ -11,4 +11,10 @@
 
 int _putchar(char c);
 
+/**
+ * print_alphabet - print alphabet
+ */
+
+void print_alphabet();
+
 #endif
