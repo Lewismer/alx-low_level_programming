@@ -12,7 +12,7 @@ int main(void)
 	int i = 0;
 	char message[] = "_putchar";
 
-	while(message[i] !='\0')
+	while (message[i] != '\0')
 	{
 		_putchar(message[i++]);
 	}
