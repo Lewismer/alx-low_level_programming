@@ -1,26 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
-
-/**
- * _putchar - print a character 
- *
- * @c : the caracter to be printed
- *
- * Return: 1 
- */
+#include <stdio.h>
 
 int _putchar(char c);
 
-/**
- * print_alphabet_x10 - print alphabets in lowercase 10 times
- */
+void print_alphabet(void);
 
 void print_alphabet_x10(void);
-
-/**
- * print_alphabet - print alphabet
- */
-
-void print_alphabet(void);
 
 #endif

@@ -3,7 +3,6 @@
 /**
  * print_alphabet - print alphabets in lower case 10 times
  *
- * return: the function is type void
  */
 void print_alphabet_x10(void)
 {
