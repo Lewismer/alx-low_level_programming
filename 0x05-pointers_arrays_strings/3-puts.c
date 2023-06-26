@@ -4,7 +4,7 @@
  * _puts - prints a string to stdout
  * @str: the string to be printed
  */
-int _puts(char *str)
+void _puts(char *str)
 {
 	int i = 0;
 
@@ -12,5 +12,4 @@ int _puts(char *str)
 		_putchar(str[i]);
 
 	_putchar('\n');
-
 }
