@@ -20,10 +20,10 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	else
-	{
-		memory = malloc(sizeof(char) * size);
-	}
+	memory = malloc(sizeof(char) * size);
+
+	if (memory == NULL)
+		return (NULL);
 
 	for (i = 0; i < size; i++)
 		memory[i] = c;
